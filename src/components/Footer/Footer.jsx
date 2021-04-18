@@ -11,13 +11,13 @@ text-align: center;
 const FooterText=styled.p`
 color: ${({ theme }) => theme.footerText};
 display: inline;
-margin: 0 5px;
+letter-spacing: 1px;
+margin: 0;
 `
 
 function Footer() {
     return <FooterContainer>
-        <FooterText>App created by Oscar Pinchen</FooterText>
-        <FooterText>{currentYear}</FooterText>
+        <FooterText>App created by Oscar Pinchen {currentYear}</FooterText>
     </FooterContainer>
 }
 
