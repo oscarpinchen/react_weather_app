@@ -7,4 +7,4 @@ body {
     font-family: europa, Tahoma, Helvetica, Arial, Roboto, sans-serif;
     transition: all 0.50s linear;
 }
-`
+`;
